@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--gris-fonce);
+}
+
+.footer_name {
+    text-align: center;
+    color: var(--blanc);
+}
+
+.footer_icons {
+    text-align: center;
+}
+
+.footer_icons_element {
+    padding-right: 10%;
+    width: 10%; 
+}
+
+.footer_ML {
+    text-align: left;
+    color: var(--blanc);
+}
+
+a {
+    color: white;
+}

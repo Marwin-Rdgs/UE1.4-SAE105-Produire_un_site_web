@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+}
+
+.header_stand {
+background-color: var(--blanc);
+}
+
+.header_titre {
+    text-align: center;
+}
+
+.header_titre_index {
+    color: var(--blanc);
+}
+
+.header_button_menu {
+    padding-left: 20%;
+}

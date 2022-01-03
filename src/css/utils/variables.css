@@ -6,7 +6,7 @@
 --noir: rgba(0, 0, 0, 1);
 --rouge-titre: rgba(255, 5, 5, 1);
 --gris: rgba(224, 224, 224, 1);
---gris-foncé: rgba(65, 65, 65, 1);
+--gris-fonce: rgba(65, 65, 65, 1);
 
 /* Text-size styles */
 --menu-item: 24px;
@@ -20,5 +20,5 @@
 
 /* Font-Family */
 font-family: 'Josefin Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', serif;
 }
