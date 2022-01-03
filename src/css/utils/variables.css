@@ -1,0 +1,24 @@
+:root{
+/* Color styles */
+--rouge-fond: rgba(220, 55, 59, 1);
+--jaune: rgba(255, 183, 47, 1);
+--blanc: rgba(255, 255, 255, 1);
+--noir: rgba(0, 0, 0, 1);
+--rouge-titre: rgba(255, 5, 5, 1);
+--gris: rgba(224, 224, 224, 1);
+--gris-foncé: rgba(65, 65, 65, 1);
+
+/* Text-size styles */
+--menu-item: 24px;
+--header-title: 24px;
+--index-citation: 24px;
+--text-stand: 15px;
+--footer-name: 18px;
+--article-title: 20px;
+--legend: 11px;
+--article-sous-titre: 10px;
+
+/* Font-Family */
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}

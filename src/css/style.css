@@ -1,0 +1,24 @@
+/* Foots */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Bases */
+@import url("./bases/main.css");
+@import url("./bases/media.css");
+@import url("./bases/menu.css");
+
+/* Components */
+@import url("./components/buttons.css");
+
+/* Layout */
+@import url("./layout/footer.css");
+@import url("./layout/header.css");
+
+/* Pages */
+@import url("./pages/articles.css");
+@import url("./pages/index.css");
+
+/* Utils */
+@import url("./utils/variables.css");
+
+/* Vendors */
+@import url("./vendors/normalize.css");
