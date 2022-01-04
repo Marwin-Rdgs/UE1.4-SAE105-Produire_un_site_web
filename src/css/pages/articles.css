@@ -34,6 +34,14 @@
     width: 200%;
 }
 
+.article-citation {
+    font-size: var(--index-citation);
+    font-family: var(--font-josefin);
+    color: var(--rouge-titre);  
+    
+    text-align: center;
+}
+
 .legend {
     font-size: var(--legend);
     color: var(--gris);
@@ -51,4 +59,35 @@
 	padding: 1px;
 	position: relative;
 	overflow: hidden;
+}
+
+/* Article 3 */
+
+.article-title3 {
+    background: var(--blanc);
+    border-radius: 10%;
+
+    position: absolute;
+    z-index: 2;
+    margin-left: 30%;
+    margin-top: 40%;
+    padding: 5%;
+
+    color: var(--rouge-titre);
+    font-size: var(--article-title);
+}
+
+.PKD_img {
+    text-align:center;
+    margin:auto;
+    display:flex; 
+}
+
+.savoirPlus {
+    text-align:center;
+    margin:auto;
+    display:flex; 
+
+    background: transparent;
+    border: transparent;
 }

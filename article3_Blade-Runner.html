@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>ARTIFICIAL - Blade Runner</title>
+</head>
+<body>
+
+    <header class="header_stand">
+
+        <nav>
+        
+            <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu" id="toggleIcon" onclick="menuToggle()">
+            <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu2">
+            
+            <div id="menu-overlay" class="nav">
+                <ul class="menu_ul">
+                    <div class="menu_li menu_liens"> <img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+                    <li class="menu_li"><a href="./index.html" class="menu_liens">Accueil</a></li>
+                    <li class="menu_li"><a href="./article1_her.html" class="menu_liens">Her</a></li>
+                    <li class="menu_li"><a href="./article2 _Spike-Jonze.html" class="menu_liens">Spike Jonze</a></li>
+                    <li class="menu_li"><a href="./article3_Blade-Runner.html" class="menu_liens">Blade Runner</a></li>
+                    <li class="menu_li"><a href="./a_propos.html" class="menu_liens">À Propos</a></li>
+                    <li class="menu_li"><a href="./contact.html" class="menu_liens">Contact</a></li>
+                    <li class="menu_li"> <a href="./autres_projets.html" class="menu_liens"> Autres Projets</a></li>
+                </ul>
+        
+        
+                <script type="text/javascript">
+                    function menuToggle(){
+                        var nav = document.getElementById('menu-overlay');
+                        nav.classList.toggle('active');
+        
+                        var nav = document.getElementById('toggleIcon');
+                        nav.classList.toggle('active');
+                        }
+                </script>
+        
+            </div>
+        </nav>
+    
+        
+        <h1 class="header_titre"><a href="./index.html" class="header_titre_stand"> ARTIFICIAL </a></h1>
+    
+    </header>
+
+<main>
+        <h1 class="article-title3">Blade Runner</h1>
+        <img src="./public/img/article3_miniature.png" alt="Miniature Article 1" class="miniature">
+
+
+
+        <h3 class="article-subtitle">Où est l’humanité ?</h3>
+        <p class="article-contenu">Dans Blade Runner (ou Les androïdes rêvent-ils de moutons électriques ?), Philip K Dick nous emmène dans un monde où seulement quelques humains vivent sur Terre. Les Intelligences Artificielles et les Hommes se ressemblent à un point près. Les Hommes ont de l’empathie.Bienvenue sur Terre, nous sommes en 1992. Cette planète qui habitait autrefois les Hommes n’est plus rien. Elle n’est que vestiges d’une guerre nucléaire.</p>
+    
+                <div class="visionneuse">
+                    <div class="image1"
+                        x-on:mouseover="monterLegende();"
+                        x-on:mouseleave="descendreLegende();">
+                        <img src="./public/img/Philip_K_Dick.png" class="PKD_img"/></div>
+                    <p class="txt1 legend">Couverture de Blade Runner</p>
+                </div>
+
+                <button class="savoirPlus"><a href="./Philip_K_Dick.html"><img src="./public/icon/Savoir Plus.svg" alt="Bouton Savoir Plus"></a></button>
+
+                <h3 class="article-subtitle">Où sont les Hommes ?</h3>
+                <p class="article-contenu">Les Hommes ont quittés la Terre pour se réfugier sur Mars. Mais quelques-uns y sont encore. Soit parce qu’ils sont contaminés, soit parce que ce sont des blades runners. Les blades runners sont des chasseurs d’androïdes . Rick Deckard fait partie de ceux-là. Il vit à San Francisco avec sa femme et un mouton électrique.</p>
+
+                <h3 class="article-subtitle">Une chasse pour un peu d’humanité</h3>
+                <p class="article-contenu">Voilà que 6 androïdes, des Nexus 6, viennent de s’échapper de Mars e t sont arrivés sur Terre. C’est alors que la chasse à l’androïde commence. Rick se donne pour mission de les retrouver et de les tuer. Mais il ne fait pas ça pour rien. Lui qui espère tant posséder un vrai mouton souhaiterait en réclamer un comme récompense. En effet, rares sont les animaux sur Terre. Rare est l’humanité qui y est présente.</p>
+
+                <div class="visionneuse">
+                    <div class="image1"
+                        x-on:mouseover="monterLegende();"
+                        x-on:mouseleave="descendreLegende();">
+                        <img src="./public/img/harrison_ford.png" alt="Harrison Ford interprétant Rick Deckard (1982)" class="article_img"/></div>
+                    <p class="txt1 legend">Harrison Ford interprétant Rick Deckard (1982)</p>
+                </div>
+
+                <h3 class="article-subtitle">Les androïdes sont pareils que nous, ou presque</h3>
+                <p class="article-contenu">Les androïdes qui sont conçus ressemblent comme deux gouttes d’eau aux humains. Il est alors quasiment impossible de les différencier. En revanche, il existe un moyen de les trouver. Grâce au test de Voigt-Kampff. Ce test a pour but de démasquer les androïdes par rapport à l’empathie. On aborde donc la question de l’humanité. Les androïdes peuvent nous ressembler comme c’est le cas dans le livre. Ils sont également plus adaptés à certains travaux. Ils sont plus fort car l’Homme est limité. En revanche l’Homme possède de l’Humanité. Il possède de l’empathie. Rick se demandera d’ailleurs ce qui le différencie tant des androïdes.</p>
+
+
+                <figure>
+                    <p class="article-citation">“Comme les objets sont tyranniques ! pensait-il. Ce truc ne sait même pas que j’existe. Comme les androïdes, il est incapable de se rendre compte de l’existence des autres.”</p>
+                    <figcaption class="legend">- Rick en songeant au besoin de posséder un animal vivant</figcaption>
+                </figure>
+
+                <h3 class="article-subtitle">Comment notre relation avec les IA évoluera ?</h3>
+                <p class="article-contenu">On peut se demander maintenant si dans le futur notre relation évoluera ou pas. Rick parvient à tuer tous les Nexus 6 et à obtenir sa récompense. Mais il finit par avoir des relations sexuels avec une androïde appelée Rachel. On a là une similitude avec HER. Les relations entre Humains et IA seront-elles possibles un jour ? Aimer quelque chose qui ne possède pas d’empathie n’est-ce pas pareil qu’aimer quelque chose sans âme ? L’intelligence artificielle peut-être une bonne chose pour l’évolution. Mais il ne faut pas oublier que nous sommes avant tout des Hommes. Et que notre humanité fait ce que nous sommes. Nous ne devons pas nous laisser contrôler par des robots. Car si un jour les androïdes de ces oeuvres existent vraiment, alors l’Homme courra peut-être à sa fin.</p>
+
+                
+</main>
+
+
+
+<footer>
+
+    <h2 class="footer_name">PierrePolJ</h2>
+
+    <div class="footer_icons">
+        <a href="https://www.facebook.com/"><img src="./public/icon/Icone Facebook.svg" alt="Icone Facebook" class="footer_icons_element"></a>
+        <a href="mailto:marwinrdgs.pro@gmail.com"><img src="./public/icon/Icon Instagram.svg" alt="Icone Instagram" class="footer_icons_element"></a>
+        <a href="https://www.instagram.com/"><img src="./public/icon/Icone Mail.svg" alt="Icone Mail" class="footer_icons_element"></a>
+    </div>
+
+    <p style="float:right"><a href="http://mmimontbeliard.com/" target="_blank"><img src="./public/icon/LogoMMi.svg" alt="Logo MMI"></a></p>
+    <p class="footer_ML">Projet réalisé dans le cadre d’un exercice <br> pédagogique au <a href="http://mmimontbeliard.com/" target="_blank"><em>département MMi de Montbéliard</em></a>.</p>
+
+</footer>
+    
+</body>
+</html>
