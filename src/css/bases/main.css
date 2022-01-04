@@ -1,0 +1,12 @@
+main {
+    padding-top: 30%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+    font-size: var(--text-stand);
+    font-family: var(--font-raleway);
+}

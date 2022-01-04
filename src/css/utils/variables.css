@@ -10,15 +10,17 @@
 
 /* Text-size styles */
 --menu-item: 24px;
---header-title: 24px;
 --index-citation: 24px;
 --text-stand: 15px;
 --footer-name: 18px;
 --article-title: 20px;
 --legend: 11px;
 --article-sous-titre: 10px;
+--index-cards-title: 24px;
+--index-cards-contenu: 15px;
+--index-cards-button: 18px;
 
 /* Font-Family */
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Raleway', serif;
+--font-josefin: 'Josefin Sans', sans-serif;
+--font-raleway: 'Raleway', sans-serif;
 }

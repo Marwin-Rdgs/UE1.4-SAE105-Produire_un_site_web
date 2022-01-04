@@ -14,29 +14,92 @@
     
 <header>
 
-    <img src="./public/icon/Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu">
-    <h1 class="header_titre header_titre_index"> ARTIFICIAL </h1>
+    <nav>
+    
+        <img src="./public/icon/Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu" id="toggleIcon" onclick="menuToggle()">
+        <img src="./public/icon/Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu2">
+        
+        <div id="menu-overlay" class="nav">
+            <ul class="menu_ul">
+                <div class="menu_li menu_liens"> <img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+                <li class="menu_li"><a href="./article1_her.html" class="menu_liens">Her</a></li>
+                <li class="menu_li"><a href="./article2 _Spike-Jonze.html" class="menu_liens">Spike Jonze</a></li>
+                <li class="menu_li"><a href="./article3_Blade-Runner.html" class="menu_liens">Blade Runner</a></li>
+                <li class="menu_li"><a href="./a_propos.html" class="menu_liens">À Propos</a></li>
+                <li class="menu_li"><a href="./contact.html" class="menu_liens">Contact</a></li>
+                <li class="menu_li"> <a href="./autres_projets.html" class="menu_liens"> Autres Projets</a></li>
+            </ul>
+    
+    
+            <script type="text/javascript">
+                function menuToggle(){
+                    var nav = document.getElementById('menu-overlay');
+                    nav.classList.toggle('active');
+    
+                    var nav = document.getElementById('toggleIcon');
+                    nav.classList.toggle('active');
+                    }
+            </script>
+    
+        </div>
+    </nav>
+
+    
+    <h1 class="header_titre header_titre_index"><a href="./index.html"> ARTIFICIAL </a></h1>
 
 </header>
 
 <main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <h2 class="index_citation">“Ce sont des gens. Ils ont besoin d’oxygène. Toi tu n’es pas une personne.”</h2>
+
+    <img src="./public/icon/play.svg" alt="Boutton Play" class="play_button">
+
+
+    <img src="./public/icon/arrow_bottom.svg" alt="Flèche" class="arrow_bottom">
+
+    <p class="pitch-site">Les Intelligences Artificielles sont l’avenir de la technologie. Sur ce site découvrez plusieurs facettes de cette avancée qui va sûrement révolutioner le monde.</p>
+
+
+    <div class="card_index">
+        <img src="./public/img/article1_miniature.png" class="card_miniature">
+        
+        <h2 class="card_index_title">Her</h2>
+
+        <p class="card_index_contenu">Voilà qu’un nouveau système d’exploitation intelligent vient de sortir. Tellement développé que Théodore va, lui, en tomber amoureux.</p>
+
+            <img src="./public/icon/Line.svg" class="card_line">
+            <a href="./article1_her.html"><button class="card_button card_button_index">DÉCOUVRIR</button></a>
+    </div>
+
+<br><br><br><br><br>
+
+<div class="card_index">
+    <img src="./public/img/article2_miniature.png" class="card_miniature">
+    
+    <h2 class="card_index_title">Spike Jonze</h2>
+
+    <p class="card_index_contenu">Débutant avec des vidéos de skate, Spike Jonze s’est fait un nom dans le monde du cinéma. Il gagnera plusieurs récompenses notamment grâce à HER.</p>
+
+        <img src="./public/icon/Line.svg" class="card_line">
+        <a href="./article2 _Spike-Jonze.html"><button class="card_button card_button_index">DÉCOUVRIR</button></a>
+</div>
+
+<br><br><br><br><br>
+
+<div class="card_index">
+    <img src="./public/img/article3_miniature.png" class="card_miniature">
+    
+    <h2 class="card_index_title">Blade Runner</h2>
+
+    <p class="card_index_contenu">Dans un monde où seulement quelques humains vivent sur Terre; Rick un chasseur d’androïdes va tout faire afin d’obtenir ce qu’il veut tant.</p>
+
+        <img src="./public/icon/Line.svg" class="card_line">
+        <a href="./article3_Blade-Runner.html"><button class="card_button card_button_index">DÉCOUVRIR</button></a>
+</div>
+
+<br><br><br><br><br>
+
 </main>
 
 

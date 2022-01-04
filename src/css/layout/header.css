@@ -2,6 +2,8 @@ header {
     position: fixed;
     padding-top: 5%;
     display: flex;
+    z-index: 3;
+    font-family: var(--font-josefin);
 }
 
 .header_stand {
@@ -12,6 +14,7 @@ background-color: var(--blanc);
     text-align: center;
     display: flex;
     float: right;
+
 }
 
 .header_titre_index {
@@ -21,4 +24,8 @@ background-color: var(--blanc);
 
 .header_button_menu {
     padding-left: 20%;
+}
+
+.header_button_menu2 {
+    visibility: hidden;
 }

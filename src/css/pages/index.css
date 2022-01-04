@@ -1,3 +1,30 @@
 .index {
     background: linear-gradient(180deg, #FFB72F 0%, #D6223D 31.77%);
 }
+
+.index_citation {
+    margin: auto;
+    text-align: center;
+    color: var(--blanc);
+    font-family: var(--font-josefin);
+    font-size: var(--index-citation);
+    padding-bottom: 5%;
+    width: 75%;
+}
+
+.play_button {
+    display: block;
+    margin: auto;
+    padding-bottom: 75%;
+}
+
+.arrow_bottom {
+    display: block;
+    margin: auto;
+}
+
+.pitch-site {
+    text-align: center;
+    color: var(--blanc);
+    padding-bottom: 20%;
+}
