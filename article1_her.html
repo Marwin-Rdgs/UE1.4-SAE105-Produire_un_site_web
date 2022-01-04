@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
+
     <link rel="stylesheet" href="./src/css/style.css">
     <title>ARTIFICIAL - Her</title>
 </head>
@@ -52,19 +56,33 @@
         <h1 class="article-title">Her</h1>
         <img src="./public/img/article1_miniature.png" alt="Miniature Article 1" class="miniature">
 
+
+
         <h3 class="article-subtitle">Les relations entre Humains et IA</h3>
 
         <p class="article-contenu">Dans son film HER, Spike Jonze nous plonge dans un univers où Humains et Intelligences Artificielles vivent ensemble. La question de leurs différences se pose alors. Sommes-nous pareils ou différents ? Qu’est-ce qui nous sépare tant alors qu’on est si proche ?</p>
-        <figure style="float:right">
-            <img src="./public/img/affiche_her.png" alt="Affiche cinéma de Her">
-            <figcaption>Affiche cinéma de HER</figcaption>
-        </figure>
+    
+                <div class="visionneuse" style="float:right">
+                    <div class="image1"
+                        x-on:mouseover="monterLegende();"
+                        x-on:mouseleave="descendreLegende();">
+                        <img src="./public/img/affiche_her.png"/></div>
+                    <p class="txt1 legend">Affiche cinéma de Her</p>
+                </div>
+
+
         <p class="article-contenu">Nous sommes à Los Angeles dans un futur proche. Un nouveau système d’exploitation ultra-sophistiqué (OS1) vient de sortir. Ce dernier a la capacité d’apprendre à vous connaître. Cela lui permet de s’y adapter. L’expérience de son utilisateur est donc d’autant plus immersive</p>
 
-        <figure class="article_img">
-        <img src="./public/img/her_1.png" alt="Théodore Twombly dans HER">
-        <figcaption>Théodore Twombly dans Her</figcaption>
-        </figure>
+
+        <br>
+
+        <div class="visionneuse">
+            <div class="image1"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende();">
+                <img src="./public/img/her_1.png" alt="Théodore Twombly dans Her" class="article_img"/></div>
+            <p class="txt1 legend">Théodore Twombly dans Her</p>
+        </div>
 
         <h3 class="article-subtitle">La rencontre entre Théodore Twombly et Samantha</h3>
 
@@ -75,10 +93,13 @@
 
         <p class="article-contenu">Les jours passent et la relation entre les deux personnages évolue. Plus ils apprennent à se connaître et plus les sentiments commencent à croitre. C’est le début d’une relation amoureuse. N’ayant pas de forme physique Samantha séduit Théodore grâce à sa personnalité. Elle qui s’adapte à celle de Théodore ne peut-être qu’idéale aux yeux de ce dernier. S’en suit donc un amour fusionnelle entre un Humain et une Intelligence Artificielle.</p>
 
-        <figure class="article_img">
-            <img src="./public/img/her_2.png" alt="Théodore Twombly dans HER">
-            <figcaption>Théodore Twombly dans Her</figcaption>
-        </figure>
+        <div class="visionneuse">
+            <div class="image1"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende();">
+                <img src="./public/img/her_2.png" alt="Théodore Twombly dans Her" class="article_img"/></div>
+            <p class="txt1 legend">Théodore Twombly dans Her</p>
+        </div>
 
         <h3 class="article-subtitle">Peut-on réellement tomber amoureux d’une Intelligence Artificielle ?</h3>
         <p class="article-contenu">Aimer quelque chose qui n’est pas physique est possible. On peut aimer la personnalité de quelqu’un par exemple. Mais dans le fond, cela revient toujours à tomber amoureux d’une personne. Une VRAIE personne. Alors est-ce que aimer une intelligence artificielle comme c’est le cas dans HER est possible ? Théodore et d’autres personnages dans le film nous montre que ça l’est. En effet ils vivent une relation avec leurs systèmes d’exploitations. Cependant quand on a un regard extérieur on peut se poser des questions. Vivent-ils dans leur imagination ? Les Intelligences Artificielles ontelles les mêmes sentiments que nous ? Je pense que l’amour entre un Homme et une Machine ne peut exister.</p>

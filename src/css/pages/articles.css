@@ -30,18 +30,25 @@
 }
 
 .article_img {
-    width: 100%;
     margin: auto;
+    width: 200%;
 }
 
-figcaption {
+.legend {
     font-size: var(--legend);
     color: var(--gris);
     text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2886) 0%, rgba(75, 75, 75, 0.2553) 47.4%, rgba(0, 0, 0, 0.37) 99.99%, rgba(196, 196, 196, 0) 100%);
 }
 
 #IA {
     text-align:center;
     margin:auto;
     display:flex;
+}
+
+.visionneuse {
+	padding: 1px;
+	position: relative;
+	overflow: hidden;
 }
