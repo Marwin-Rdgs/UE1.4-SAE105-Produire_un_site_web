@@ -10,3 +10,13 @@ p {
     font-size: var(--text-stand);
     font-family: var(--font-raleway);
 }
+
+.page_titre {
+    font-size: var(----article-title);
+    text-align: center;
+    color: var(--noir)
+}
+
+.textuel_stand {
+    text-align: left;
+}

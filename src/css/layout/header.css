@@ -8,13 +8,18 @@ header {
 
 .header_stand {
 background-color: var(--blanc);
+width: 100%;
 }
 
 .header_titre {
     text-align: center;
     display: flex;
     float: right;
+}
 
+.header_titre_stand {
+    color: red;
+    padding-left: 5%;
 }
 
 .header_titre_index {
@@ -25,6 +30,11 @@ background-color: var(--blanc);
 .header_button_menu {
     padding-left: 20%;
 }
+
+.header_button_menu {
+    padding-left: 20%;
+}
+
 
 .header_button_menu2 {
     visibility: hidden;

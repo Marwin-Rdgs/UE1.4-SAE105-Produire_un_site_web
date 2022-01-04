@@ -1,0 +1,31 @@
+.contact {
+    color: var(--blanc);
+    padding-bottom: 10%;
+}
+
+form {
+padding-left: 5%;
+padding-bottom: 100%;
+}
+
+input, textarea {
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.form-end {
+    background: var(--blanc);
+    width: 93%;
+    border-radius: 10px;
+}
+
+.envoyer {
+    color: var(--rouge-titre);
+    font-family: var(--font-josefin);
+    font-size: var(--index-cards-button);
+    background: transparent;
+    border: transparent;
+    text-align: right;
+    padding-left: 60%;
+}

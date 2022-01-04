@@ -37,7 +37,7 @@
     position: relative;
     text-decoration: none;
     font-size: var(--menu-item);
-    padding: 13%;
+    padding: 9%;
     color: var(--blanc);
     text-transform: uppercase;
     display: inline-block;
@@ -57,5 +57,4 @@ padding: 0%;
 justify-content: left;
 align-items: left;
 padding-right: 350px;
-padding-top: 50px;
 }
