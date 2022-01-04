@@ -1,5 +1,7 @@
 header {
     position: fixed;
+    padding-top: 5%;
+    display: flex;
 }
 
 .header_stand {
@@ -8,10 +10,13 @@ background-color: var(--blanc);
 
 .header_titre {
     text-align: center;
+    display: flex;
+    float: right;
 }
 
 .header_titre_index {
     color: var(--blanc);
+    padding-left: 20%;
 }
 
 .header_button_menu {
