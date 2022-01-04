@@ -1,0 +1,25 @@
+.propos-mmi {
+    text-align:center;
+    margin:auto;
+    display:flex;
+    width: 40%;
+}
+
+.propos {
+    text-align: center;
+}
+
+.propos-icons {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 90%;
+}
+
+.propos-icons-element1 {
+    margin-right: 125px;
+}
+
+.propos-icons-element2 {
+    margin-right: 50px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>ARTIFICIAL - À propos</title>
+</head>
+<body>
+
+    <header class="header_stand">
+
+        <nav>
+        
+            <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu" id="toggleIcon" onclick="menuToggle()">
+            <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu2">
+            
+            <div id="menu-overlay" class="nav">
+                <ul class="menu_ul">
+                    <div class="menu_li menu_liens"> <img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+                    <li class="menu_li"><a href="./index.html" class="menu_liens">Accueil</a></li>
+                    <li class="menu_li"><a href="./article1_her.html" class="menu_liens">Her</a></li>
+                    <li class="menu_li"><a href="./article2 _Spike-Jonze.html" class="menu_liens">Spike Jonze</a></li>
+                    <li class="menu_li"><a href="./article3_Blade-Runner.html" class="menu_liens">Blade Runner</a></li>
+                    <li class="menu_li"><a href="./a_propos.html" class="menu_liens">À Propos</a></li>
+                    <li class="menu_li"><a href="./contact.html" class="menu_liens">Contact</a></li>
+                    <li class="menu_li"> <a href="./autres_projets.html" class="menu_liens"> Autres Projets</a></li>
+                </ul>
+        
+        
+                <script type="text/javascript">
+                    function menuToggle(){
+                        var nav = document.getElementById('menu-overlay');
+                        nav.classList.toggle('active');
+        
+                        var nav = document.getElementById('toggleIcon');
+                        nav.classList.toggle('active');
+                        }
+                </script>
+        
+            </div>
+        </nav>
+    
+        
+        <h1 class="header_titre"><a href="./index.html" class="header_titre_stand"> ARTIFICIAL </a></h1>
+    
+    </header>
+
+<main>
+    <h1 class="page_titre">À propos</h1>
+
+    <p class="propos">Salut ! <br> Je m’appelle PierrePolJ et je suis étudiant à MMi Montbéliard. <br> Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard.</p>
+
+    <img src="./public/icon/LogoMMi.svg" alt="Logo MMI" class="propos-mmi">
+
+    <p class="propos">Si vous avez aimé ARTICIFIAL, je vous invite à me contacter !</p>
+
+    <div class="propos-icons">
+        <a href="https://www.facebook.com/"><img src="./public/icon/Icone Facebook.svg" alt="Icone Facebook" class="propos-icons-element1"></a>
+        <a href="https://www.instagram.com/"><img src="./public/icon/Icon Instagram.svg" alt="Icone Instagram" class="propos-icons-element1"></a>
+        <a href="mailto:marwinrdgs.pro@gmail.com"><img src="./public/icon/Icone Mail.svg" alt="Icone Mail" class="propos-icons-element2"></a>
+    </div>
+
+</main>
+
+    
+</body>
+</html>
