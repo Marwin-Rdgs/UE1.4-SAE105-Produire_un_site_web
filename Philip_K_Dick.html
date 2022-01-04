@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>ARTIFICIAL - Philip K Dick</title>
+</head>
+<body>
+
+    <header class="header_stand">
+
+        <nav>
+        
+            <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu" id="toggleIcon" onclick="menuToggle()">
+            <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu2">
+            
+            <div id="menu-overlay" class="nav">
+                <ul class="menu_ul">
+                    <div class="menu_li menu_liens"> <img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+                    <li class="menu_li"><a href="./index.html" class="menu_liens">Accueil</a></li>
+                    <li class="menu_li"><a href="./article1_her.html" class="menu_liens">Her</a></li>
+                    <li class="menu_li"><a href="./article2 _Spike-Jonze.html" class="menu_liens">Spike Jonze</a></li>
+                    <li class="menu_li"><a href="./article3_Blade-Runner.html" class="menu_liens">Blade Runner</a></li>
+                    <li class="menu_li"><a href="./a_propos.html" class="menu_liens">À Propos</a></li>
+                    <li class="menu_li"><a href="./contact.html" class="menu_liens">Contact</a></li>
+                    <li class="menu_li"> <a href="./autres_projets.html" class="menu_liens"> Autres Projets</a></li>
+                </ul>
+        
+        
+                <script type="text/javascript">
+                    function menuToggle(){
+                        var nav = document.getElementById('menu-overlay');
+                        nav.classList.toggle('active');
+        
+                        var nav = document.getElementById('toggleIcon');
+                        nav.classList.toggle('active');
+                        }
+                </script>
+        
+            </div>
+        </nav>
+    
+        
+        <h1 class="header_titre"><a href="./index.html" class="header_titre_stand"> ARTIFICIAL </a></h1>
+    
+    </header>
+
+<main>
+        <h1 class="article-title3">Philip K Dick</h1>
+        <img src="./public/img/article3_miniature.png" alt="Miniature Article 1" class="miniature">
+
+
+
+        <h3 class="article-subtitle">Qui est-ce ?</h3>
+        <p class="article-contenu"><em>Philip Kindred Dick est un écrivain américain. Il appartient au mouvement du post-modernisme. Durant sa carrière il va s’orienter vers le genre fantastique et la science fiction.</em></p>
+    
+                <figure>
+                    <img src="./public/img/Philip_K_Dick_selfie.png" class="PKD_img"/>
+                    <figcaption class="txt1 legend">« In my writing I even question the universe; I wonder out loud if it is real, and I wonder out loud if all of us are real. »</figcaption>
+                </figure>
+
+                <h3 class="article-subtitle">Quelques informations sur sa vie</h3>
+                <p class="article-contenu">Alors qu’il n’était âgé que de quelques semaines Philip perd sa soeur jumelle. À ses 4 ans ses parents se séparent et son père mets à terme tout relation. Dès petit il est passionné de littérature et de musique. Il décide donc plus tard de faire de la littérature son métier. Il va se tourner vers la science-fiction et le fantastique. Paranoïaque et schizophrène il consomme des amphétamines pour rester productif. Cependant, son succès est incontestable. Il reçoit plusieurs prix littéraires au cours de sa vie. Par exemple le prix Hugo ou encore le prix John Wood Campbell Memorial. <br><br> Il avait son propre style d’écriture et a influencé pleins de personnes. Il a notamment influencé Charlie Kaufman (scénariste qui a beaucoup travaillé avec Spike Jonze). <br><br> Beaucoup de ses oeuvres seront adaptées au cinéma et seront populaires. Par exemple Blade Runner, Passenger, Total Recall ou encore Ghost in the Shell qui s’est inspiré de sa philosophie. <br><br> Aujourd’hui décédé, ses oeuvres continuent à faire parler de lui. Grand écrivain, le prix littéraire Philip K Dick a été créé pour lui rendre hommage.</p>
+
+                <div class="visionneuse">
+                    <div class="image1"
+                        x-on:mouseover="monterLegende();"
+                        x-on:mouseleave="descendreLegende();">
+                        <img src="./public/img/Philip_K_Dick_Radio4.png" alt="Harrison Ford interprétant Rick Deckard (1982)" class="article_img"/></div>
+                    <p class="txt1 legend">Philip K. Dick - BBC Radio 4</p>
+                </div>
+
+                <h3 class="article-subtitle"><em> <b> Quelques livres dont il est l’auteur </b></em></h3>
+
+            <p>
+                <div class="article-subtitle titre-livre">
+                    Le Maître du Haut Château (1962)
+                </div>
+                <div class="article-contenu legend-livre">
+                    Adaptation : The Man in the High Castle
+                </div>
+            </p>
+
+            <p class="article-subtitle titre-livre">Le Dieu venu du Centaure (1965)</p>
+
+            <p class="article-subtitle titre-livre">Les androïdes rêvent-ils de moutons électriques ? (1968)</p>
+
+            <p class="article-subtitle titre-livre">Ubik (1969)</p>
+
+            <p class="article-subtitle titre-livre">SIVA (1981)</p>
+</main>
+
+
+
+<footer>
+
+    <h2 class="footer_name">PierrePolJ</h2>
+
+    <div class="footer_icons">
+        <a href="https://www.facebook.com/"><img src="./public/icon/Icone Facebook.svg" alt="Icone Facebook" class="footer_icons_element"></a>
+        <a href="mailto:marwinrdgs.pro@gmail.com"><img src="./public/icon/Icon Instagram.svg" alt="Icone Instagram" class="footer_icons_element"></a>
+        <a href="https://www.instagram.com/"><img src="./public/icon/Icone Mail.svg" alt="Icone Mail" class="footer_icons_element"></a>
+    </div>
+
+    <p style="float:right"><a href="http://mmimontbeliard.com/" target="_blank"><img src="./public/icon/LogoMMi.svg" alt="Logo MMI"></a></p>
+    <p class="footer_ML">Projet réalisé dans le cadre d’un exercice <br> pédagogique au <a href="http://mmimontbeliard.com/" target="_blank"><em>département MMi de Montbéliard</em></a>.</p>
+
+</footer>
+    
+</body>
+</html>
