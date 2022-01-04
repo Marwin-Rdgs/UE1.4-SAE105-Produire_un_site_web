@@ -9,13 +9,39 @@
 
     position: absolute;
     z-index: 2;
-    margin-left: 45%;
-    margin-top: 48%;
+    margin-left: 40%;
+    margin-top: 40%;
+    padding: 5%;
 
     color: var(--rouge-titre);
     font-size: var(--article-title);
 }
 
 .article-subtitle {
-    font-size: var(--article);
+    font-size: var(--article-sous-titre);
+    text-align: center;
+}
+
+.article-contenu {
+    font-size: var(--text-stand);
+    font-family: var(--font-raleway);
+
+    padding: 3%;
+}
+
+.article_img {
+    width: 100%;
+    margin: auto;
+}
+
+figcaption {
+    font-size: var(--legend);
+    color: var(--gris);
+    text-align: center;
+}
+
+#IA {
+    text-align:center;
+    margin:auto;
+    display:flex;
 }
