@@ -1,0 +1,21 @@
+.miniature {
+    z-index: 1;
+    position: relative;
+}
+
+.article-title {
+    background: var(--blanc);
+    border-radius: 10%;
+
+    position: absolute;
+    z-index: 2;
+    margin-left: 45%;
+    margin-top: 48%;
+
+    color: var(--rouge-titre);
+    font-size: var(--article-title);
+}
+
+.article-subtitle {
+    font-size: var(--article);
+}
