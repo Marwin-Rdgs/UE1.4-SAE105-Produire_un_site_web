@@ -54,7 +54,7 @@
   }
 
 .menu-cross { 
-  margin-right: 400px;
-justify-content: left;
-align-items: left;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 190%;
 }
