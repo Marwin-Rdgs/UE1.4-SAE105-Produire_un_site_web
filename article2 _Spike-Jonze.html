@@ -17,10 +17,12 @@
     
             if (document.getElementById("oscar").src = "./public/img/oscar1.png")
             {
+                console.log('toto');
                 document.getElementById("oscar").src = "./public/img/oscar2.png";
             }
             else 
             {
+                console.log('tata');
                 document.getElementById("oscar").src = "./public/img/oscar1.png";
             }
         }
@@ -38,7 +40,7 @@
             
             <div id="menu-overlay" class="nav">
                 <ul class="menu_ul">
-                    <div class="menu_li menu_liens"> <img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+                    <li class="menu_li"><img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"></li>
                     <li class="menu_li"><a href="./index.html" class="menu_liens">Accueil</a></li>
                     <li class="menu_li"><a href="./article1_her.html" class="menu_liens">Her</a></li>
                     <li class="menu_li"><a href="./article2 _Spike-Jonze.html" class="menu_liens">Spike Jonze</a></li>
@@ -76,10 +78,10 @@
 
     <div class="visionneuse">
         <div class="image1"
-            x-on:mouseover="monterLegende();"
-            x-on:mouseleave="descendreLegende();">
+            x-on:mouseover="monterLegende('capt1');"
+            x-on:mouseleave="descendreLegende('capt1');">
             <img src="./public/img/interview_magazine.png" alt="Spike Jonze - Interview Magazine" class="article_img"/></div>
-        <p class="txt1 legend">Spike Jonze - Interview Magazine</p>
+        <p class="txt1 legend capt1">Spike Jonze - Interview Magazine</p>
     </div>
 
     <h3 class="article-subtitle">Le sport et la musique</h3>
@@ -90,10 +92,10 @@
     
     <div class="visionneuse">
         <div class="image1"
-            x-on:mouseover="monterLegende();"
-            x-on:mouseleave="descendreLegende();">
+            x-on:mouseover="monterLegende('capt2');"
+            x-on:mouseleave="descendreLegende('capt2');">
             <img src="./public/img/clash_magazine.png" alt="Spike Jonze - Clash Magazine" class="article_img"/></div>
-        <p class="txt1 legend">Spike Jonze - Clash Magazine</p>
+        <p class="txt1 legend capt2">Spike Jonze - Clash Magazine</p>
     </div>
 
     <h3 class="article-subtitle">Son ascension au début du 21° siècle</h3>

@@ -1,9 +1,9 @@
-function monterLegende() {
+function monterLegende(c) {
 
-    let texte13 = document.querySelector(".txt1");
+    let texte13 = document.querySelector("."+c);
     texte13.style.display = "block";
     return anime({
-        targets: ".txt1",
+        targets: "."+c,
         translateY: '-5em',
         autoplay: false,
         easing: 'linear',      
@@ -12,12 +12,12 @@ function monterLegende() {
 
 }
 
-function descendreLegende() {
-    let txt1 = document.querySelector(".txt1");
+function descendreLegende(c) {
+    let txt1 = document.querySelector("."+c);
     txt1.style.display = "block";
     return anime({
-        targets: ".txt1",
-        translateY: '5em',
+        targets: "."+c,
+        translateY: '1em',
         autoplay: false,
         easing: 'linear',      
         duration: 200

@@ -53,9 +53,8 @@
     cursor: pointer;
   }
 
-.menu-cross {
-padding: 0%;
+.menu-cross { 
+  margin-right: 400px;
 justify-content: left;
 align-items: left;
-padding-right: 350px;
 }
