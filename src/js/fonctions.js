@@ -40,8 +40,8 @@ function carrousel() {
 
     anim15.add({
         targets: images,
-        translateX: [{value: 500, duration: d},
-                     {value: '-500', duration: 0, delay: function(img,ind) {
+        translateX: [{value: '369', duration: d},
+                     {value: '-369', duration: 0, delay: function(img,ind) {
                                     if (ind == 0) return 9*delta + 8*d;
                                     if (ind == 1) return 8*delta + 7*d;
                                     if (ind == 2) return 7*delta + 6*d;

@@ -1,5 +1,6 @@
 footer {
     background-color: var(--gris-fonce);
+    overflow: hidden;
 }
 
 .footer_name {

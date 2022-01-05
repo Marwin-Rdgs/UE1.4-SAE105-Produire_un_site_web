@@ -11,6 +11,21 @@
 
     <link rel="stylesheet" href="./src/css/style.css">
     <title>ARTIFICIAL - Spike Jonze</title>
+
+    <script language="javascript">
+        function changeImage() {
+    
+            if (document.getElementById("oscar").src = "./public/img/oscar1.png")
+            {
+                document.getElementById("oscar").src = "./public/img/oscar2.png";
+            }
+            else 
+            {
+                document.getElementById("oscar").src = "./public/img/oscar1.png";
+            }
+        }
+    </script>
+
 </head>
 <body>
 
@@ -88,10 +103,10 @@
 
     <p class="article-contenu">Six ans plus tard il sort l’adaptation du livre “Max et les Maximonstres”. Ce fut encore un succès. En 2011, son court-métrage “Mourir auprès de toi” (coréalisé avec Simon Cahn) se voit nommé 5 fois également. <br><br> Mais c’est en 2013 que sa carrière explosera.</p>
 
-        <div class="image1 miniature">
-            <img src="./public/img/oscar1.png" alt="Spike Jonze lors de la 86ème édition de la cérémonie des Oscars" class="article_img img_oscar1" onclick="this.src='./public/img/oscar2.png'"> 
-        <p class="txt1 legend">Spike Jonze lors de la 86ème édition de la cérémonie des Oscars</p>
-    </div>
+        <div class="image1 miniature" id="henriet">
+            <img src="./public/img/oscar1.png" alt="Spike Jonze lors de la 86ème édition de la cérémonie des Oscars" class="article_img img_oscar1" id="oscar" onclick="changeImage()"> 
+            <p class="txt1 legend">Spike Jonze lors de la 86ème édition de la cérémonie des Oscars</p>
+         </div>
 
     <h3 class="article-subtitle">Son plus gros succès : HER</h3>
     <p class="article-contenu">En 2013 il sort ce drame romantique dans lequel le héros (Théodore Twombly) tombe amoureux de son système d’exploitation (Samantha). Les personnages principaux seront par Joaquin Phoenix et Scarlett Johansson. <br><br> Un film qui fut le plus grand chef-d’oeuvre de sa carrière. Il sera nommé 11 fois et qui sera récompensé à deux reprises. La première pour le Meilleur Scénario aux Golden Globes. Et aux Oscars pour le Meilleur Scénario Original. <br><br> Joaquin Phoenix qui sera extra-ordinaire dans ce film sera nommé 15 fois pour son rôle. Il remportera aux EDA Awards 2013 le titre de : Meilleur représentation de la nudité, de la sexualité ou de la séduction dans un drame romantique. Il partagera ce titre avec Scarlett Johansson.</p>

@@ -63,12 +63,10 @@
 
 /* Article 2 - Spike Jonze */
 .carrousel {
-    grid-column: 2;
-    grid-row: 2;
-    width: 371px;
     padding: 0px;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .droite15 {
@@ -79,13 +77,13 @@
 
 .images15 {
     width: 371px;
-    height: 344px;
+    height: 537px;
     left:0;
 }
 
 .images15 img{
     width: 371px;
-    height: 344px;
+    height: 537px;
 }
 
 .image15 {

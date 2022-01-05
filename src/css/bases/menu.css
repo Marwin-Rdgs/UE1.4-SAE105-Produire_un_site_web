@@ -16,6 +16,7 @@
     overflow-y: auto;
     transform: scale(0);
     transition: 0.5s;
+    z-index: 2;
   }
   
   #menu-overlay.active {
