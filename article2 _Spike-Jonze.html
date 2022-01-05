@@ -105,8 +105,13 @@
 
     <p class="article-contenu">Six ans plus tard il sort l’adaptation du livre “Max et les Maximonstres”. Ce fut encore un succès. En 2011, son court-métrage “Mourir auprès de toi” (coréalisé avec Simon Cahn) se voit nommé 5 fois également. <br><br> Mais c’est en 2013 que sa carrière explosera.</p>
 
-        <div class="image1 miniature" id="henriet">
-            <img src="./public/img/oscar1.png" alt="Spike Jonze lors de la 86ème édition de la cérémonie des Oscars" class="article_img img_oscar1" id="oscar" onclick="changeImage()"> 
+         <div class="image1 miniature" id="henriet" x-data="{show : 1}">
+            <img src="./public/img/oscar1.png" alt="Spike Jonze lors de la 86ème édition de la cérémonie des Oscars" class="article_img img_oscar1"
+            x-show="show"
+            x-on:click="show = 0">
+            <img src="./public/img/oscar2.png" alt="Spike Jonze lors de la 86ème édition de la cérémonie des Oscars" class="article_img img_oscar2"
+            x-on:click="show = 1"
+            x-show="!show">
             <p class="txt1 legend">Spike Jonze lors de la 86ème édition de la cérémonie des Oscars</p>
          </div>
 
