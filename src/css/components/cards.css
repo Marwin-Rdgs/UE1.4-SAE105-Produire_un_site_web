@@ -5,6 +5,7 @@
     filter: drop-shadow(3px 4px 5px rgba(0, 0, 0, 0.4));
     display: block;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .card_index_title {
