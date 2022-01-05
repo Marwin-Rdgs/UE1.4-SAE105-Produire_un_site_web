@@ -19,6 +19,7 @@
 @import url("./pages/index.css");
 @import url("./pages/contact.css");
 @import url("./pages/propos.css");
+@import url("./pages/404.css");
 
 /* Utils */
 @import url("./utils/variables.css");

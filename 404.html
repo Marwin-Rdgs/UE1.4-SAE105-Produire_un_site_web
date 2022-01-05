@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
 <script src="https://animejs.com/lib/anime.min.js"></script>
 <script src="src/js/fonctions.js"></script>
@@ -6,11 +12,87 @@
 <link rel="stylesheet" href="./src/css/style.css">
 
 <title>ARTIFICIAL - 404 ~ Page Non trouvée</title>
-<h1>Page Non trouvée</h1>
-<form action="https://www.google.com/" method="GET" 
+</head>
+
+<body>
+    
+<div class="header_404">
+<nav>
+        
+    <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu" id="toggleIcon" onclick="menuToggle()">
+    <img src="./public/icon/Red-Menu-Button.svg" alt="Boutton menu Hamburger" class="header_button_menu2">
+    
+    <div id="menu-overlay" class="nav">
+        <ul class="menu_ul">
+            <div class="menu_li menu_liens"> <img src="./public/icon/cross.svg" id="toggleIcon" onclick="menuToggle()" class="menu-cross"> </div>
+            <li class="menu_li"><a href="./index.html" class="menu_liens">Accueil</a></li>
+            <li class="menu_li"><a href="./article1_her.html" class="menu_liens">Her</a></li>
+            <li class="menu_li"><a href="./article2 _Spike-Jonze.html" class="menu_liens">Spike Jonze</a></li>
+            <li class="menu_li"><a href="./article3_Blade-Runner.html" class="menu_liens">Blade Runner</a></li>
+            <li class="menu_li"><a href="./a_propos.html" class="menu_liens">À Propos</a></li>
+            <li class="menu_li"><a href="./contact.html" class="menu_liens">Contact</a></li>
+            <li class="menu_li"> <a href="./autres_projets.html" class="menu_liens"> Autres Projets</a></li>
+        </ul>
+
+
+        <script type="text/javascript">
+            function menuToggle(){
+                var nav = document.getElementById('menu-overlay');
+                nav.classList.toggle('active');
+
+                var nav = document.getElementById('toggleIcon');
+                nav.classList.toggle('active');
+                }
+        </script>
+
+    </div>
+</nav>
+
+
+<h1 class="header_titre"><a href="./index.html" class="header_titre_stand"> ARTIFICIAL </a></h1>
+
+</div>
+
+
+<h1 class="article-subtitle">Error 404 <br> Page Non trouvée</h1>
+
+<form class="form_error" action="https://www.google.com/" method="GET" 
     x-data="{ q:'', }" 
     x-on:submit="q = q + 'artificial.marwin-rodrigues.fr:'">
-    <label for="q">Texte à chercher :</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
+
+    <input type="text" id="q" name="q" x-model="q" placeholder="Texte à chercher">
+    <button type="submit" class="envoyer">Rechercher</button>
+
 </form>
+
+<img src="./public/icon/arrow_bottom_black.svg" alt="Flèche" class="arrow_bottom">
+
+
+<a href="./index.html"><button class="sitemap"> Accueil </button></a>
+<a href="./article1_her.html"><button class="sitemap"> Article 1 - Her </button></a>
+<a href="./article2 _Spike-Jonze.html"><button class="sitemap"> Article 2 - Spike Jonze </button></a>
+<a href="./article3_Blade-Runner.html"><button class="sitemap"> Article 3 - Blade Runner </button></a>
+<a href="./Philip_K_Dick.html"><button class="sitemap"> Philip K Dick </button></a>
+<a href="./a_propos.html"><button class="sitemap"> À propos </button></a>
+<a href="./contact.html"><button class="sitemap"> Contact </button></a>
+<a href="./autres_projets.html"><button class="sitemap"> Autres projets </button></a>
+
+
+
+<footer>
+
+    <h2 class="footer_name">PierrePolJ</h2>
+
+    <div class="footer_icons">
+        <a href="https://www.facebook.com/"><img src="./public/icon/Icone Facebook.svg" alt="Icone Facebook" class="footer_icons_element"></a>
+        <a href="mailto:marwinrdgs.pro@gmail.com"><img src="./public/icon/Icon Instagram.svg" alt="Icone Instagram" class="footer_icons_element"></a>
+        <a href="https://www.instagram.com/"><img src="./public/icon/Icone Mail.svg" alt="Icone Mail" class="footer_icons_element"></a>
+    </div>
+
+    <p style="float:right"><a href="http://mmimontbeliard.com/" target="_blank"><img src="./public/icon/LogoMMi.svg" alt="Logo MMI"></a></p>
+    <p class="footer_ML">Projet réalisé dans le cadre d’un exercice <br> pédagogique au <a href="http://mmimontbeliard.com/" target="_blank"><em>département MMi de Montbéliard</em></a>.</p>
+
+</footer>
+
+
+</body>

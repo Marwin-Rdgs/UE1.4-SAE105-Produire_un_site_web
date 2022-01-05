@@ -39,3 +39,10 @@ width: 100%;
 .header_button_menu2 {
     visibility: hidden;
 }
+
+.header_404 {
+    padding-top: 5%;
+    display: flex;
+    z-index: 3;
+    font-family: var(--font-josefin);
+}
