@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+<script src="https://animejs.com/lib/anime.min.js"></script>
+<script src="src/js/fonctions.js"></script>
+
+<link rel="stylesheet" href="./src/css/style.css">
+
+<title>ARTIFICIAL - 404 ~ Page Non trouvée</title>
+<h1>Page Non trouvée</h1>
+<form action="https://www.google.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + 'artificial.marwin-rodrigues.fr:'">
+    <label for="q">Texte à chercher :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
